@@ -3,7 +3,7 @@ title: "User talk:Brooke Vibber"
 date: 2025-11-29T13:32:03+08:00
 description: "&lt;div style=&quot;width: 100%; margin: 0.2em 0; padding: 0.3em 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; font-size: 120%;&quot;&gt;'''您好，Brion VIBBER！欢迎加入维基百科！'''&lt;/div&gt;
 感謝您..."
-draft: true
+draft: false
 author: "Wikipedia"
 cover: ""
 tags: ["维基百科", "知识库"]

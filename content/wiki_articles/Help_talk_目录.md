@@ -8,7 +8,7 @@ policy and guideline 守则与指导&lt;br /&gt;
 article 条目&lt;br /&gt;
 sandbox 沙盒&lt;br /&gt;
 start a new page 创建..."
-draft: true
+draft: false
 author: "Wikipedia"
 cover: ""
 tags: ["维基百科", "知识库"]

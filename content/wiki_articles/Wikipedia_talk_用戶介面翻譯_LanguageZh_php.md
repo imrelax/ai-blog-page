@@ -2,7 +2,7 @@
 title: "Wikipedia talk:用戶介面翻譯/LanguageZh.php"
 date: 2025-11-29T13:32:03+08:00
 description: "==Test page for new localization file: Wikipedia:LanguageZh2.php== ---- 语言部分总算翻译完了！在 Google上查中文、英文、不知名的外文无数次，希望这个翻译还能算严谨。:) 依然有几个译法上的疑问： Inupiak,Inuktitut 各怎么样译，有什么区别？ Hangukeo 是用朝鲜语还是韩国语好？&lt;br /&gt..."
-draft: true
+draft: false
 author: "Wikipedia"
 cover: ""
 tags: ["维基百科", "知识库"]

@@ -4,7 +4,7 @@ date: 2025-11-29T13:32:03+08:00
 description: "== ==
 这个FAQ并没有完全翻译英文版。如果有什么问题需要提出的请在这里列出，我们一起讨论是否要加进去。--Formulax ---- Wikipedia:FAQ不是應譯做Wikipedia:常见问题嗎？名稱簡短些要链接也方便。--Lorenzarius 2003年3月20日 10:00 (UTC)
 ::不过好像加入“解答”会更精确吧？题目不是我订的。如果要链接方便，或许可以直接链接到Wiki..."
-draft: true
+draft: false
 author: "Wikipedia"
 cover: ""
 tags: ["维基百科", "知识库"]

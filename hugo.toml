@@ -1,7 +1,7 @@
 baseURL = 'https://your-domain.pages.dev/'
 languageCode = 'zh-CN'
 title = 'AI 博客'
-theme = 'PaperMod'
+theme = 'hugo-theme-itheme'
 
 [params]
   description = '我的 AI 博客网站'

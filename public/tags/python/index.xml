@@ -1,150 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on AI 博客</title><link>/tags/python/</link><description>Recent content in Python on AI 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Nov 2025 13:22:15 +0800</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>机器学习入门指南</title><link>/posts/machine-learning-guide/</link><pubDate>Sat, 29 Nov 2025 13:22:15 +0800</pubDate><guid>/posts/machine-learning-guide/</guid><description>&lt;p>
-
-
-
-
-
-
-
-
-&lt;figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big"> &lt;div class="component-content">
- &lt;div class="image-sharesheet">
- &lt;div class="image image-load image-asset image-aefea223b5589758753373c6adea684a" id="lhtaefea223b5589758753373c6adea684a">
- &lt;picture class="picture">
- &lt;img class="picture-image" data-src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&amp;amp;h=500&amp;amp;fit=crop" alt="机器学习工作流程|big" />
- &lt;/picture>
- &lt;/div>
- &lt;/div>
- &lt;div class="image-description">
- &lt;div class="image-caption">
- 机器学习工作流程
- &lt;/div>
- &lt;/div>
- &lt;/div>
-&lt;/figure>
-&lt;/p>
-
-&lt;div class="component-content pagebody component">
- &lt;h2 id="什么是机器学习" class="pagebody-header">
- 什么是机器学习？
- &lt;/h2>
-&lt;/div>&lt;p>机器学习是人工智能的一个子领域，它使计算机系统能够从数据中学习并改进，而无需显式编程。简单来说，机器学习就是让计算机通过数据自动学习规律和模式。&lt;/p>
-
-&lt;div class="component-content pagebody component">
- &lt;h3 id="机器学习的主要类型" class="pagebody-header">
- 机器学习的主要类型
- &lt;/h3>
-&lt;/div>&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>监督学习&lt;/strong> - 使用标注数据训练模型&lt;/p>
-&lt;ul>
-&lt;li>分类问题：垃圾邮件检测、图像识别&lt;/li>
-&lt;li>回归问题：房价预测、销量预测&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>无监督学习&lt;/strong> - 从无标注数据中发现模式&lt;/p>
-&lt;ul>
-&lt;li>聚类分析：客户分群、异常检测&lt;/li>
-&lt;li>降维处理：数据可视化、特征提取&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>强化学习&lt;/strong> - 通过试错学习最优策略&lt;/p>
-&lt;ul>
-&lt;li>游戏AI：AlphaGo、游戏机器人&lt;/li>
-&lt;li>机器人控制：自动驾驶、工业自动化&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-
-&lt;div class="component-content pagebody component">
- &lt;h2 id="入门必备工具" class="pagebody-header">
- 入门必备工具
- &lt;/h2>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h3 id="编程语言" class="pagebody-header">
- 编程语言
- &lt;/h3>
-&lt;/div>&lt;ul>
-&lt;li>&lt;strong>Python&lt;/strong> - 机器学习领域最流行的语言&lt;/li>
-&lt;li>&lt;strong>R&lt;/strong> - 统计分析和数据可视化&lt;/li>
-&lt;/ul>
-
-&lt;div class="component-content pagebody component">
- &lt;h3 id="核心库" class="pagebody-header">
- 核心库
- &lt;/h3>
-&lt;/div>&lt;div class="component-content pagebody component code">
- 
- 
- 
- &lt;div class="">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 数据处理&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> pandas &lt;span style="color:#66d9ef">as&lt;/span> pd
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 机器学习&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> sklearn.model_selection &lt;span style="color:#f92672">import&lt;/span> train_test_split
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> sklearn.linear_model &lt;span style="color:#f92672">import&lt;/span> LinearRegression
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> sklearn.metrics &lt;span style="color:#f92672">import&lt;/span> accuracy_score
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 数据可视化&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> seaborn &lt;span style="color:#66d9ef">as&lt;/span> sns&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
- 
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h2 id="实战案例房价预测" class="pagebody-header">
- 实战案例：房价预测
- &lt;/h2>
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h3 id="数据准备" class="pagebody-header">
- 数据准备
- &lt;/h3>
-&lt;/div>&lt;div class="component-content pagebody component code">
- 
- 
- 
- &lt;div class="">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 加载数据&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>data &lt;span style="color:#f92672">=&lt;/span> pd&lt;span style="color:#f92672">.&lt;/span>read_csv(&lt;span style="color:#e6db74">&amp;#39;housing.csv&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 数据清洗&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>data &lt;span style="color:#f92672">=&lt;/span> data&lt;span style="color:#f92672">.&lt;/span>dropna()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 特征选择&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>features &lt;span style="color:#f92672">=&lt;/span> [&lt;span style="color:#e6db74">&amp;#39;area&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;bedrooms&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;bathrooms&amp;#39;&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>target &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;price&amp;#39;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
- 
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h3 id="模型训练" class="pagebody-header">
- 模型训练
- &lt;/h3>
-&lt;/div>&lt;div class="component-content pagebody component code">
- 
- 
- 
- &lt;div class="">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 划分训练集和测试集&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>X_train, X_test, y_train, y_test &lt;span style="color:#f92672">=&lt;/span> train_test_split(
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> data[features], data[target], test_size&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0.2&lt;/span>, random_state&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">42&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 创建模型&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>model &lt;span style="color:#f92672">=&lt;/span> LinearRegression()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 训练模型&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>model&lt;span style="color:#f92672">.&lt;/span>fit(X_train, y_train)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 预测结果&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>predictions &lt;span style="color:#f92672">=&lt;/span> model&lt;span style="color:#f92672">.&lt;/span>predict(X_test)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
- 
-&lt;/div>
-&lt;div class="component-content pagebody component">
- &lt;h2 id="学习资源推荐" class="pagebody-header">
- 学习资源推荐
- &lt;/h2>
-&lt;/div>&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>在线课程&lt;/strong>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on AI 博客</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on AI 博客</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 29 Nov 2025 13:22:15 +0800</lastBuildDate>
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器学习入门指南</title>
+      <link>/posts/machine-learning-guide/</link>
+      <pubDate>Sat, 29 Nov 2025 13:22:15 +0800</pubDate>
+      <guid>/posts/machine-learning-guide/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big&#34;&gt;  &lt;div class=&#34;component-content&#34;&gt;&#xA;    &lt;div class=&#34;image-sharesheet&#34;&gt;&#xA;      &lt;div class=&#34;image image-load image-asset image-aefea223b5589758753373c6adea684a&#34; id=&#34;lhtaefea223b5589758753373c6adea684a&#34;&gt;&#xA;        &lt;picture  class=&#34;picture&#34;&gt;&#xA;          &lt;img class=&#34;picture-image&#34; data-src=&#34;https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&amp;amp;h=500&amp;amp;fit=crop&#34; alt=&#34;机器学习工作流程|big&#34;  /&gt;&#xA;        &lt;/picture&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;image-description&#34;&gt;&#xA;      &lt;div class=&#34;image-caption&#34;&gt;&#xA;        机器学习工作流程&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;什么是机器学习&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    什么是机器学习？&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;p&gt;机器学习是人工智能的一个子领域，它使计算机系统能够从数据中学习并改进，而无需显式编程。简单来说，机器学习就是让计算机通过数据自动学习规律和模式。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;机器学习的主要类型&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    机器学习的主要类型&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;监督学习&lt;/strong&gt; - 使用标注数据训练模型&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;分类问题：垃圾邮件检测、图像识别&lt;/li&gt;&#xA;&lt;li&gt;回归问题：房价预测、销量预测&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;无监督学习&lt;/strong&gt; - 从无标注数据中发现模式&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;聚类分析：客户分群、异常检测&lt;/li&gt;&#xA;&lt;li&gt;降维处理：数据可视化、特征提取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;强化学习&lt;/strong&gt; - 通过试错学习最优策略&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;游戏AI：AlphaGo、游戏机器人&lt;/li&gt;&#xA;&lt;li&gt;机器人控制：自动驾驶、工业自动化&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;入门必备工具&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    入门必备工具&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;编程语言&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    编程语言&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; - 机器学习领域最流行的语言&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; - 统计分析和数据可视化&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;核心库&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    核心库&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据处理&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pandas &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; pd&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 机器学习&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.model_selection &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; train_test_split&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.linear_model &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; LinearRegression&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.metrics &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; accuracy_score&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据可视化&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; seaborn &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; sns&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;实战案例房价预测&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    实战案例：房价预测&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;数据准备&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    数据准备&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 加载数据&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;housing.csv&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据清洗&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dropna()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 特征选择&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;features &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;area&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bedrooms&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bathrooms&amp;#39;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;target &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;price&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;模型训练&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    模型训练&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 划分训练集和测试集&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X_train, X_test, y_train, y_test &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; train_test_split(&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    data[features], data[target], test_size&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.2&lt;/span&gt;, random_state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建模型&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;model &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; LinearRegression()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 训练模型&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;model&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fit(X_train, y_train)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 预测结果&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;predictions &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; model&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;predict(X_test)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;学习资源推荐&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    学习资源推荐&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;在线课程&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

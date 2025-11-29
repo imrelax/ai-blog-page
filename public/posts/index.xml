@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on AI 博客</title><link>https://your-domain.pages.dev/posts/</link><description>Recent content in Posts on AI 博客</description><generator>Hugo -- 0.147.4</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Nov 2025 13:17:38 +0800</lastBuildDate><atom:link href="https://your-domain.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎来到我的 AI 博客</title><link>https://your-domain.pages.dev/posts/first-post/</link><pubDate>Sat, 29 Nov 2025 13:17:38 +0800</pubDate><guid>https://your-domain.pages.dev/posts/first-post/</guid><description>&lt;p>欢迎来到我的 Hugo 博客！这是使用 Hugo 静态网站生成器创建的第一篇文章。&lt;/p>
+&lt;h2 id="功能特点">功能特点&lt;/h2>
+&lt;ul>
+&lt;li>🚀 极快的构建速度&lt;/li>
+&lt;li>📱 响应式设计&lt;/li>
+&lt;li>🎨 现代化的主题&lt;/li>
+&lt;li>🌐 多语言支持&lt;/li>
+&lt;/ul>
+&lt;h2 id="部署到-cloudflare-pages">部署到 Cloudflare Pages&lt;/h2>
+&lt;p>这个博客将部署到 Cloudflare Pages，享受全球 CDN 加速。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 构建命令&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo --minify
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 输出目录：public&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

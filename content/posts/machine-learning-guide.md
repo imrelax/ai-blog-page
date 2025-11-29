@@ -7,6 +7,7 @@ author: "数据科学家"
 cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop"
 tags: ["机器学习", "入门教程", "Python", "数据分析"]
 theme: "light"
+slug: "machine-learning-guide"
 ---
 
 ![机器学习工作流程|big](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&h=500&fit=crop)

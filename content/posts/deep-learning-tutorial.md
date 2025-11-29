@@ -7,6 +7,7 @@ author: "深度学习工程师"
 cover: "https://images.unsplash.com/photo-1655721529465-ddfb9234f5ce?w=800&h=400&fit=crop"
 tags: ["深度学习", "神经网络", "TensorFlow", "PyTorch", "实战教程"]
 theme: "auto"
+slug: "deep-learning-tutorial"
 ---
 
 ![深度学习神经网络|wide](https://images.unsplash.com/photo-1655721529465-ddfb9234f5ce?w=1200&h=600&fit=crop)

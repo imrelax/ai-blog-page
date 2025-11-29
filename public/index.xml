@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 博客</title><link>https://your-domain.pages.dev/</link><description>Recent content on AI 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Nov 2025 13:22:19 +0800</lastBuildDate><atom:link href="https://your-domain.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>深度学习实战教程</title><link>https://your-domain.pages.dev/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/</link><pubDate>Sat, 29 Nov 2025 13:22:19 +0800</pubDate><guid>https://your-domain.pages.dev/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI 博客</title><link>/</link><description>Recent content on AI 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Nov 2025 13:22:19 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>深度学习实战教程</title><link>/posts/deep-learning-tutorial/</link><pubDate>Sat, 29 Nov 2025 13:22:19 +0800</pubDate><guid>/posts/deep-learning-tutorial/</guid><description>&lt;p>
 
 
 
@@ -256,7 +256,7 @@
  &lt;/h2>
 &lt;/div>&lt;ol>
 &lt;li>
-&lt;p>&lt;strong>官方文档&lt;/strong>&lt;/p></description></item><item><title>机器学习入门指南</title><link>https://your-domain.pages.dev/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Sat, 29 Nov 2025 13:22:15 +0800</pubDate><guid>https://your-domain.pages.dev/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;p>
+&lt;p>&lt;strong>官方文档&lt;/strong>&lt;/p></description></item><item><title>机器学习入门指南</title><link>/posts/machine-learning-guide/</link><pubDate>Sat, 29 Nov 2025 13:22:15 +0800</pubDate><guid>/posts/machine-learning-guide/</guid><description>&lt;p>
 
 
 
@@ -405,7 +405,7 @@
  &lt;/h2>
 &lt;/div>&lt;ol>
 &lt;li>
-&lt;p>&lt;strong>在线课程&lt;/strong>&lt;/p></description></item><item><title>人工智能的未来</title><link>https://your-domain.pages.dev/posts/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%9C%AA%E6%9D%A5/</link><pubDate>Sat, 29 Nov 2025 13:22:10 +0800</pubDate><guid>https://your-domain.pages.dev/posts/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%9C%AA%E6%9D%A5/</guid><description>&lt;p>
+&lt;p>&lt;strong>在线课程&lt;/strong>&lt;/p></description></item><item><title>人工智能的未来</title><link>/posts/ai-future/</link><pubDate>Sat, 29 Nov 2025 13:22:10 +0800</pubDate><guid>/posts/ai-future/</guid><description>&lt;p>
 
 
 
@@ -487,7 +487,7 @@
  &lt;h2 id="结语" class="pagebody-header">
  结语
  &lt;/h2>
-&lt;/div>&lt;p>人工智能的未来充满无限可能，我们需要在技术发展的同时，建立相应的伦理规范和法律框架，确保AI技术为人类社会带来积极的影响。&lt;/p></description></item><item><title>关于我</title><link>https://your-domain.pages.dev/about/</link><pubDate>Sat, 29 Nov 2025 13:17:43 +0800</pubDate><guid>https://your-domain.pages.dev/about/</guid><description>&lt;div class="component-content pagebody component">
+&lt;/div>&lt;p>人工智能的未来充满无限可能，我们需要在技术发展的同时，建立相应的伦理规范和法律框架，确保AI技术为人类社会带来积极的影响。&lt;/p></description></item><item><title>关于我</title><link>/about/</link><pubDate>Sat, 29 Nov 2025 13:17:43 +0800</pubDate><guid>/about/</guid><description>&lt;div class="component-content pagebody component">
  &lt;h2 id="关于这个博客" class="pagebody-header">
  关于这个博客
  &lt;/h2>
@@ -513,7 +513,7 @@
 &lt;li>📱 移动端友好&lt;/li>
 &lt;li>🎨 简洁美观&lt;/li>
 &lt;li>🌍 全球加速&lt;/li>
-&lt;/ul></description></item><item><title>欢迎来到我的 AI 博客</title><link>https://your-domain.pages.dev/posts/first-post/</link><pubDate>Sat, 29 Nov 2025 13:17:38 +0800</pubDate><guid>https://your-domain.pages.dev/posts/first-post/</guid><description>&lt;p>欢迎来到我的 Hugo 博客！这是使用 Hugo 静态网站生成器创建的第一篇文章。&lt;/p>
+&lt;/ul></description></item><item><title>欢迎来到我的 AI 博客</title><link>/posts/first-post/</link><pubDate>Sat, 29 Nov 2025 13:17:38 +0800</pubDate><guid>/posts/first-post/</guid><description>&lt;p>欢迎来到我的 Hugo 博客！这是使用 Hugo 静态网站生成器创建的第一篇文章。&lt;/p>
 
 &lt;div class="component-content pagebody component">
  &lt;h2 id="功能特点" class="pagebody-header">

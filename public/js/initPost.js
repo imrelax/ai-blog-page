@@ -1,6 +1,6 @@
 (() => {
   // ns-hugo-params:<stdin>
-  var stdin_default = { baseURL: "https://your-domain.pages.dev/" };
+  var stdin_default = { baseURL: "/" };
 
   // <stdin>
   var scriptMd5 = document.createElement("script");

@@ -1,4 +1,4 @@
-baseURL = 'https://your-domain.pages.dev/'
+baseURL = '/'
 languageCode = 'zh-CN'
 title = 'AI 博客'
 theme = 'hugo-theme-itheme'

@@ -7,6 +7,7 @@ author: "AI研究员"
 cover: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
 tags: ["人工智能", "未来技术", "机器学习", "AI应用"]
 theme: "dark"
+slug: "ai-future"
 ---
 
 ![人工智能概念图|wide](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop)

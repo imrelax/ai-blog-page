@@ -1,0 +1,39 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+
+# Hugo cache files
+/.hugo_build.lock
+
+# Dependency directories
+/node_modules/
+/bower_components/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 用户指定的排除文件
+/parse_wiki_simple.py
+/parse_wiki_xml.py
+/zhwiki-20250801-pages-meta-current1.xml-p1p187712
+
+# Hugo module files
+hugo_modules/

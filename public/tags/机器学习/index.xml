@@ -1,75 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>机器学习 on AI 博客</title>
-    <link>/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-    <description>Recent content in 机器学习 on AI 博客</description>
+    <title>机器学习 on AI 知识库</title>
+    <link>//localhost:60085/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 机器学习 on AI 知识库</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 29 Nov 2025 13:46:42 +0800</lastBuildDate>
-    <atom:link href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="//localhost:60085/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>联邦学习</title>
-      <link>/wikipedia/%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:42 +0800</pubDate>
-      <guid>/wikipedia/%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/</guid>
-      <description>&lt;p&gt;簡繁重定向：这是簡體至繁體，或繁體至簡體的重定向。&#xA;本重定向用來避免重複创建頁面、減少轉換系統出錯時的紅字問題。使用了本連結的頁面可能需要更新，以直接連結至目標頁面。請勿使用管道連結，這會隱藏正確的敘述。&#xA;並非純簡繁字體差異者，請使用或其他合適的重定向模板。&lt;/p&gt;</description>
+      <title>ai-future</title>
+      <link>//localhost:60085/categories/ai-ml/ai-future/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/ai-future/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&amp;amp;h=600&amp;amp;fit=crop&#34; alt=&#34;人工智能概念图|wide&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;人工智能的发展历程&#34;&gt;人工智能的发展历程&lt;/h2&gt;&#xA;&lt;p&gt;人工智能从概念提出到现在已经经历了多个发展阶段。从早期的符号主义AI到现代的深度学习，AI技术正在以前所未有的速度发展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;当前技术趋势&#34;&gt;当前技术趋势&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;大语言模型的突破&lt;/strong&gt; - GPT系列模型的出现标志着自然语言处理的重大进步&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;多模态学习&lt;/strong&gt; - 文本、图像、音频的融合处理能力&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;强化学习应用&lt;/strong&gt; - 在游戏、机器人控制等领域的成功应用&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;边缘计算AI&lt;/strong&gt; - 将AI能力部署到终端设备&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;未来应用场景&#34;&gt;未来应用场景&lt;/h2&gt;&#xA;&lt;h3 id=&#34;医疗健康领域&#34;&gt;医疗健康领域&lt;/h3&gt;&#xA;&lt;p&gt;AI将在疾病诊断、药物研发、个性化治疗等方面发挥重要作用。通过分析海量医疗数据，AI可以帮助医生做出更准确的诊断。&lt;/p&gt;&#xA;&lt;h3 id=&#34;教育行业&#34;&gt;教育行业&lt;/h3&gt;&#xA;&lt;p&gt;个性化学习将成为主流，AI可以根据每个学生的学习进度和能力提供定制化的教学内容。&lt;/p&gt;&#xA;&lt;h3 id=&#34;智能交通&#34;&gt;智能交通&lt;/h3&gt;&#xA;&lt;p&gt;自动驾驶技术将彻底改变我们的出行方式，提高交通效率和安全性。&lt;/p&gt;&#xA;&lt;h2 id=&#34;技术挑战与伦理考量&#34;&gt;技术挑战与伦理考量&lt;/h2&gt;&#xA;&lt;p&gt;尽管AI技术发展迅速，但仍面临诸多挑战：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;数据隐私问题&lt;/strong&gt; - 如何在利用数据的同时保护用户隐私&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;算法偏见&lt;/strong&gt; - 避免AI系统产生歧视性结果&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;就业影响&lt;/strong&gt; - AI对传统工作岗位的冲击&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;安全风险&lt;/strong&gt; - 防止AI技术被恶意使用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;&#xA;&lt;p&gt;人工智能的未来充满无限可能，我们需要在技术发展的同时，建立相应的伦理规范和法律框架，确保AI技术为人类社会带来积极的影响。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>迁移学习</title>
-      <link>/wikipedia/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:41 +0800</pubDate>
-      <guid>/wikipedia/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/</guid>
-      <description>&lt;p&gt;迁移学习（英語：Transfer learning）是属于机器学习的一种研究领域。它专注于存储已有问题的解决模型，并将其利用在其他不同但相关问题上。 比如说，用来辨识汽车的知识（或者是模型）也可以被用来提升识别卡车的能力。&lt;/p&gt;</description>
+      <title>人工智能</title>
+      <link>//localhost:60085/categories/ai-ml/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
+      <description>&lt;p&gt;人工智能（英語：artificial intelligence，缩写为AI），是指计算机系统执行通常与人类智慧相关的任务的能力，例如学习、推理、解决问题、感知和决策。它是计算机科学的一个研究领域，致力于开发和研究使机器能够感知其环境并利用学习和智能采取行动以最大限度地提高其实现既定目标的可能性的方法和软件。&lt;/p&gt;</description>
     </item>
     <item>
       <title>半监督学习</title>
-      <link>/wikipedia/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:39 +0800</pubDate>
-      <guid>/wikipedia/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</guid>
+      <link>//localhost:60085/categories/ai-ml/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</guid>
       <description>&lt;p&gt;半监督学习（英語：Semi-supervised learning）是机器学习的一个分支，它在训练时使用了少量的有标签数据（Labeled data）和大量的无标签数据（Unlabeled data）。半监督学习介于无监督学习（训练数据全部无标签）和有监督学习（训练数据全部有标签）之间。半监督学习旨在缓解训练数据中有标签数据有限的问题。 无监督学习适用的的问题往往有着大量的无标签样本，同时获得有标签样本成本较高。部分其它机器学习分支有着相同动机，但是遵从不同的假设和方法，例如主动学习和弱监督学习。将无标签样本和少量有标签样本同时使用时，会对学习的准确性产生极大改善。为特定问题获得有标签的数据通常需要熟练工（例如转录音频片段）或进行物理实验（例如确定蛋白质的三维结构，或者确定特定地点是否有油气）。由此，获得有标签样本的成本往往较高，获取大型的、完全标注的样本集是不可行的；同时，获取无标签的样本成本往往相对较低。此时，半监督学习具有较大的使用价值。半监督学习在机器学习和人类学习的建模方面也具有理论价值。&#xA;正式的来说，半监督学习假设有 l {\displaystyle l} 个独立同分布的样本 x 1 , … , x l ∈ X {\displaystyle x_{1},\dots ,x_{l}\in X} 及对应的标签 y 1 , … , y l ∈ Y {\displaystyle y_{1},\dots ,y_{l}\in Y} ，和 u {\displaystyle u} 个无标签的样本 x l…&lt;/p&gt;</description>
     </item>
     <item>
-      <title>监督学习</title>
-      <link>/wikipedia/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:37 +0800</pubDate>
-      <guid>/wikipedia/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</guid>
-      <description>&lt;p&gt;監督學習（英語：Supervised learning），又叫有监督学习，监督式学习，是機器學習的一種方法，可以由訓練資料中學到或建立一個模式（函數 / learning model），並依此模式推測新的实例。訓練資料是由輸入物件（通常是向量）和預期輸出所組成。函數的輸出可以是一個連續的值（稱為迴歸分析），或是預測一個分類標籤（稱作分類）。&#xA;一個監督式學習者的任務在觀察完一些事先標記過的訓練範例（輸入和預期輸出）後，去預測這個函數對任何可能出現的輸入的输出。要達到此目的，學習者必須以&amp;quot;合理&amp;quot;（見歸納偏向）的方式從現有的資料中一般化到非觀察到的情況。在人類和動物感知中，則通常被稱為概念學習（concept learning）。&#xA;cGAN（条件式GAN）通过附加标签信息y扩展目标函数：&#xA;LcGAN​=E[logD(x∣y)]+E[log(1−D(G(z∣y)))]&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>强化学习</title>
-      <link>/wikipedia/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:36 +0800</pubDate>
-      <guid>/wikipedia/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</guid>
+      <link>//localhost:60085/categories/ai-ml/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</guid>
       <description>&lt;p&gt;强化学习（英語：Reinforcement learning，簡稱RL）是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。强化学习是除了监督学习和非监督学习之外的第三种基本的机器学习方法。与监督学习不同的是，强化学习不需要带标签的输入输出对，同时也无需对非最优解的精确地纠正。其关注点在于寻找（对未知领域的）探索和（对已有知识的）利用的平衡，强化学习中的“探索-利用”的交换，在多臂赌博机问题和有限MDP中研究得最多。&#xA;其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。这个方法具有普适性，因此在其他许多领域都有研究，例如博弈论、控制论、运筹学、信息论、仿真优化、多智能体系统、群体智能、统计学以及遗传算法。在运筹学和控制理论研究的语境下，强化学习被称作“近似动态规划”（approximate dynamic programming，ADP）。在最优控制理论中也有研究这个问题，虽然大部分的研究是关于最优解的存在和特性，并非是学习或者近似方面。在经济学和博弈论中，强化学习被用来解释在有限理性的条件下如何出现平衡。&#xA;在強化学习问题中，智能體（agent）與环境的交互通常被抽象为马尔可夫决策过程（Markov decision processes，MDP），因为很多强化学习算法在这种假设下才能使用动态规划的方法。传统的动态规划方法和强化学习算法的主要区别是，后者不需要关于MDP的知识，而且针对无法找到确切方法的大规模MDP。&#xA;对于时刻 t {\displaystyle t} 下觀測（observation） o t ∈ O {\displaystyle o_{t}\in O} 與環境實際狀態 s t ∈ S {\displaystyle s_{t}\in S} 的關係，MDP可以被分為： 完全可观测MDP，若 o t = s…&lt;/p&gt;</description>
     </item>
     <item>
-      <title>深度学习</title>
-      <link>/wikipedia/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:30 +0800</pubDate>
-      <guid>/wikipedia/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
-      <description>&lt;p&gt;深度学习（英語：deep learning）是机器学习的分支，是一種以人工神經網路為架構，對資料進行表徵學習的算法。深度学习中的形容词“深度”是指在网络中使用多层。 早期的工作表明，线性感知器不能成为通用分类器，但具有非多项式激活函数和一个无限宽度隐藏层的网络可以成为通用分类器。&#xA;深度学习是机器学习中一种基于对数据进行表征学习的算法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的向量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是用非监督式或半监督式的特征学习和分层特征提取高效算法来替代手工获取特征。&#xA;表征学习的目标是寻求更好的表示方法并建立更好的模型来从大规模未标记数据中学习这些表示方法。表示方法来自神经科学，并松散地建立在類似神经系统中的信息处理和对通信模式的理解上，如神经编码，试图定义拉動神经元的反应之间的关系以及大脑中的神经元的电活动之间的关系。&#xA;至今已有數种深度学习框架，如深度神经网络、卷积神经网络和深度置信网络和循环神经网络已被应用在计算机视觉、语音识别、自然语言处理、音频识别与生物信息学等领域并取得了极好的效果。&#xA;另外，「深度学习」已成為時髦術語，或者说是人工神经网络的品牌重塑。&lt;/p&gt;</description>
+      <title>扩散模型</title>
+      <link>//localhost:60085/categories/ai-ml/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</guid>
+      <description>&lt;p&gt;机器学习中，扩散模型（英語：Diffusion model）或扩散概率模型是一类潜变量模型，是用变分估计训练的马尔可夫链。扩散模型的目标是通过对数据点在潜空间中的扩散方式进行建模，来学习数据集的潜结构。计算机视觉中，这意味着通过学习逆扩散过程训练神经网络，使其能对叠加了高斯噪声的图像进行去噪。计算机视觉中使用通用扩散模型框架的3个例子是去噪扩散概率模型、噪声条件得分网络和随机微分方程。&#xA;扩散模型是在2015年提出的，其动机来自非平衡态热力学。&#xA;扩散模型可以应用于各种任务，如图像去噪、图像修复、超分辨率成像、图像生成等等。例如，一个图像生成模型，经过对自然图像的扩散过程的反转训练之后，可从一张完全随机的噪声图像开始逐步生成新的自然图像。比较近的例子有2022年4月13日OpenAI公布的文生图模型DALL-E。它将扩散模型用于模型的先验解释器和产生最终图像的解码器。&lt;/p&gt;</description>
     </item>
     <item>
       <title>机器学习</title>
-      <link>/wikipedia/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 29 Nov 2025 13:46:29 +0800</pubDate>
-      <guid>/wikipedia/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <link>//localhost:60085/categories/ai-ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description>&lt;p&gt;机器学习（英語：machine learning，简称ML）是人工智能的一个分支。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。算法设计方面，机器学习理论关注可以实现的，行之有效的学习算法（要防止錯誤累積）。很多推论问题属于非程序化決策，所以部分的机器学习研究是开发容易处理的近似算法。&#xA;机器学习已广泛应用于数据挖掘、计算机视觉、自然语言处理、生物特征识别、搜索引擎、医学诊断、检测信用卡詐騙、证券市场分析、DNA序列测序、语音和手写识别、游戏和机器人等领域。机器学习在近30多年已发展为一门多领域科际整合，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论、資訊理論等多门学科。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>机器学习入门指南</title>
-      <link>/posts/machine-learning-guide/</link>
-      <pubDate>Sat, 29 Nov 2025 13:22:15 +0800</pubDate>
-      <guid>/posts/machine-learning-guide/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big&#34;&gt;  &lt;div class=&#34;component-content&#34;&gt;&#xA;    &lt;div class=&#34;image-sharesheet&#34;&gt;&#xA;      &lt;div class=&#34;image image-load image-asset image-aefea223b5589758753373c6adea684a&#34; id=&#34;lhtaefea223b5589758753373c6adea684a&#34;&gt;&#xA;        &lt;picture  class=&#34;picture&#34;&gt;&#xA;          &lt;img class=&#34;picture-image&#34; data-src=&#34;https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&amp;amp;h=500&amp;amp;fit=crop&#34; alt=&#34;机器学习工作流程|big&#34;  /&gt;&#xA;        &lt;/picture&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;image-description&#34;&gt;&#xA;      &lt;div class=&#34;image-caption&#34;&gt;&#xA;        机器学习工作流程&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;什么是机器学习&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    什么是机器学习？&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;p&gt;机器学习是人工智能的一个子领域，它使计算机系统能够从数据中学习并改进，而无需显式编程。简单来说，机器学习就是让计算机通过数据自动学习规律和模式。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;机器学习的主要类型&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    机器学习的主要类型&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;监督学习&lt;/strong&gt; - 使用标注数据训练模型&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;分类问题：垃圾邮件检测、图像识别&lt;/li&gt;&#xA;&lt;li&gt;回归问题：房价预测、销量预测&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;无监督学习&lt;/strong&gt; - 从无标注数据中发现模式&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;聚类分析：客户分群、异常检测&lt;/li&gt;&#xA;&lt;li&gt;降维处理：数据可视化、特征提取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;强化学习&lt;/strong&gt; - 通过试错学习最优策略&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;游戏AI：AlphaGo、游戏机器人&lt;/li&gt;&#xA;&lt;li&gt;机器人控制：自动驾驶、工业自动化&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;入门必备工具&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    入门必备工具&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;编程语言&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    编程语言&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; - 机器学习领域最流行的语言&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; - 统计分析和数据可视化&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;核心库&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    核心库&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据处理&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pandas &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; pd&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 机器学习&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.model_selection &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; train_test_split&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.linear_model &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; LinearRegression&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sklearn.metrics &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; accuracy_score&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据可视化&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; seaborn &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; sns&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;实战案例房价预测&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    实战案例：房价预测&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;数据准备&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    数据准备&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 加载数据&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;housing.csv&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 数据清洗&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dropna()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 特征选择&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;features &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;area&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bedrooms&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bathrooms&amp;#39;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;target &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;price&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;模型训练&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    模型训练&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;div class=&#34;component-content pagebody component code&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;div class=&#34;&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 划分训练集和测试集&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X_train, X_test, y_train, y_test &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; train_test_split(&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    data[features], data[target], test_size&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.2&lt;/span&gt;, random_state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建模型&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;model &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; LinearRegression()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 训练模型&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;model&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fit(X_train, y_train)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 预测结果&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;predictions &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; model&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;predict(X_test)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;学习资源推荐&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    学习资源推荐&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;在线课程&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>深度学习</title>
+      <link>//localhost:60085/categories/ai-ml/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;p&gt;深度学习（英語：deep learning）是机器学习的分支，是一種以人工神經網路為架構，對資料進行表徵學習的算法。深度学习中的形容词“深度”是指在网络中使用多层。 早期的工作表明，线性感知器不能成为通用分类器，但具有非多项式激活函数和一个无限宽度隐藏层的网络可以成为通用分类器。&#xA;深度学习是机器学习中一种基于对数据进行表征学习的算法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的向量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是用非监督式或半监督式的特征学习和分层特征提取高效算法来替代手工获取特征。&#xA;表征学习的目标是寻求更好的表示方法并建立更好的模型来从大规模未标记数据中学习这些表示方法。表示方法来自神经科学，并松散地建立在類似神经系统中的信息处理和对通信模式的理解上，如神经编码，试图定义拉動神经元的反应之间的关系以及大脑中的神经元的电活动之间的关系。&#xA;至今已有數种深度学习框架，如深度神经网络、卷积神经网络和深度置信网络和循环神经网络已被应用在计算机视觉、语音识别、自然语言处理、音频识别与生物信息学等领域并取得了极好的效果。&#xA;另外，「深度学习」已成為時髦術語，或者说是人工神经网络的品牌重塑。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>人工智能的未来</title>
-      <link>/posts/ai-future/</link>
-      <pubDate>Sat, 29 Nov 2025 13:22:10 +0800</pubDate>
-      <guid>/posts/ai-future/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-wide&#34;&gt;  &lt;div class=&#34;component-content&#34;&gt;&#xA;    &lt;div class=&#34;image-sharesheet&#34;&gt;&#xA;      &lt;div class=&#34;image image-load image-asset image-5c227f07a74b7ce7d5f622f092403530&#34; id=&#34;lht5c227f07a74b7ce7d5f622f092403530&#34;&gt;&#xA;        &lt;picture  class=&#34;picture&#34;&gt;&#xA;          &lt;img class=&#34;picture-image&#34; data-src=&#34;https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&amp;amp;h=600&amp;amp;fit=crop&#34; alt=&#34;人工智能概念图|wide&#34;  /&gt;&#xA;        &lt;/picture&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;image-description&#34;&gt;&#xA;      &lt;div class=&#34;image-caption&#34;&gt;&#xA;        人工智能概念图&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;人工智能的发展历程&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    人工智能的发展历程&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;p&gt;人工智能从概念提出到现在已经经历了多个发展阶段。从早期的符号主义AI到现代的深度学习，AI技术正在以前所未有的速度发展。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;当前技术趋势&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    当前技术趋势&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;大语言模型的突破&lt;/strong&gt; - GPT系列模型的出现标志着自然语言处理的重大进步&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;多模态学习&lt;/strong&gt; - 文本、图像、音频的融合处理能力&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;强化学习应用&lt;/strong&gt; - 在游戏、机器人控制等领域的成功应用&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;边缘计算AI&lt;/strong&gt; - 将AI能力部署到终端设备&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;未来应用场景&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    未来应用场景&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;医疗健康领域&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    医疗健康领域&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;p&gt;AI将在疾病诊断、药物研发、个性化治疗等方面发挥重要作用。通过分析海量医疗数据，AI可以帮助医生做出更准确的诊断。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;教育行业&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    教育行业&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;p&gt;个性化学习将成为主流，AI可以根据每个学生的学习进度和能力提供定制化的教学内容。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h3 id=&#34;智能交通&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    智能交通&#xA;  &lt;/h3&gt;&#xA;&lt;/div&gt;&lt;p&gt;自动驾驶技术将彻底改变我们的出行方式，提高交通效率和安全性。&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;技术挑战与伦理考量&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    技术挑战与伦理考量&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;p&gt;尽管AI技术发展迅速，但仍面临诸多挑战：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;数据隐私问题&lt;/strong&gt; - 如何在利用数据的同时保护用户隐私&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;算法偏见&lt;/strong&gt; - 避免AI系统产生歧视性结果&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;就业影响&lt;/strong&gt; - AI对传统工作岗位的冲击&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;安全风险&lt;/strong&gt; - 防止AI技术被恶意使用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;div class=&#34;component-content pagebody component&#34;&gt;&#xA;  &lt;h2 id=&#34;结语&#34; class=&#34;pagebody-header&#34;&gt;&#xA;    结语&#xA;  &lt;/h2&gt;&#xA;&lt;/div&gt;&lt;p&gt;人工智能的未来充满无限可能，我们需要在技术发展的同时，建立相应的伦理规范和法律框架，确保AI技术为人类社会带来积极的影响。&lt;/p&gt;</description>
+      <title>生成对抗网络</title>
+      <link>//localhost:60085/categories/ai-ml/%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C/</guid>
+      <description>&lt;p&gt;生成对抗网络（英語：Generative Adversarial Network，简称GAN）是非监督式学习的一种方法，通過两个神经網路相互博弈的方式进行学习。该方法由伊恩·古德费洛等人于2014年提出。&#xA;生成對抗網絡由一個生成網絡與一個判別網絡組成。生成網絡從潛在空間（latent space）中隨機取樣作為輸入，其輸出結果需要盡量模仿訓練集中的真實樣本。判別網絡的輸入則為真實樣本或生成網絡的輸出，其目的是將生成網絡的輸出從真實樣本中盡可能分辨出來。而生成網絡則要盡可能地欺騙判別網絡。兩個網絡相互對抗、不斷調整參數，最終目的是使判別網絡無法判斷生成網絡的輸出結果是否真實。 生成對抗網絡常用於生成以假亂真的圖片。此外，該方法還被用於视频帧预测、三維物體模型等。&#xA;生成對抗網絡虽然最开始提出是為了無監督學習，但经證明對半監督學習、完全監督學習、強化學習GAIL（Generative Adversarial Imitation Learning）通过逆强化学习框架实现策略优化也有效。 在2016年的一個研討會上，杨立昆称生成式對抗網絡为「機器學習這二十年來最酷的想法」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>监督学习</title>
+      <link>//localhost:60085/categories/ai-ml/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;p&gt;監督學習（英語：Supervised learning），又叫有监督学习，监督式学习，是機器學習的一種方法，可以由訓練資料中學到或建立一個模式（函數 / learning model），並依此模式推測新的实例。訓練資料是由輸入物件（通常是向量）和預期輸出所組成。函數的輸出可以是一個連續的值（稱為迴歸分析），或是預測一個分類標籤（稱作分類）。&#xA;一個監督式學習者的任務在觀察完一些事先標記過的訓練範例（輸入和預期輸出）後，去預測這個函數對任何可能出現的輸入的输出。要達到此目的，學習者必須以&amp;quot;合理&amp;quot;（見歸納偏向）的方式從現有的資料中一般化到非觀察到的情況。在人類和動物感知中，則通常被稱為概念學習（concept learning）。&#xA;cGAN（条件式GAN）通过附加标签信息y扩展目标函数：&#xA;LcGAN​=E[logD(x∣y)]+E[log(1−D(G(z∣y)))]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>神经网络</title>
+      <link>//localhost:60085/categories/ai-ml/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</guid>
+      <description>&lt;p&gt;神经网络（neural network）是在动物、人类或计算机系统中形成神经系统结构的神经元互联群或神经元模拟，可能指： 神经回路（neural circuit），是由生物的神经元、细胞、触点等组成的神经网络。&#xA;动物神经网（nerve net），是一种径向对称的生物神经系统。&#xA;人工神经网络（artificial neural network），是一种应用类似于大脑神经突触联接的结构进行信息处理的数学模型。在工程与学术界也常直接简称为“神经网络”或“类神经网络”。&#xA;卷积神经网络（convolutional neural network），一种深度神经网络，常用于视觉图像分析。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>联邦学习</title>
+      <link>//localhost:60085/categories/ai-ml/%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;p&gt;簡繁重定向：这是簡體至繁體，或繁體至簡體的重定向。&#xA;本重定向用來避免重複创建頁面、減少轉換系統出錯時的紅字問題。使用了本連結的頁面可能需要更新，以直接連結至目標頁面。請勿使用管道連結，這會隱藏正確的敘述。&#xA;並非純簡繁字體差異者，請使用或其他合適的重定向模板。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自然语言处理</title>
+      <link>//localhost:60085/categories/ai-ml/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</guid>
+      <description>&lt;p&gt;自然語言處理（英語：Natural Language Processing，缩写作 NLP）是人工智慧和語言學領域的交叉學科，研究计算机处理、理解与生成人类语言的技術。此領域探討如何處理及運用自然語言；自然語言處理包括多方面和步骤，基本有认知、理解、生成等部分。&#xA;自然語言認知和理解是讓電腦把输入的語言变成结构化符号与语义关系，然后根据目的再處理。自然語言生成系統则是把計算機數據轉化為自然語言。&#xA;自然语言处理要研制表示语言能力和语言应用的模型, 建立计算框架来实现并完善语言模型，并根据语言模型设计各种实用系统及探讨这些系统的评测技术。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>计算机视觉</title>
+      <link>//localhost:60085/categories/ai-ml/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</guid>
+      <description>&lt;p&gt;计算机视觉（Computer vision）是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄像机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。&#xA;作为一門科学学科，计算机视觉研究相关的理论和技术，试图建立能够从图像或者多维数据中获取「信息」的人工智能系统。这里所指的信息指香农定义的，可以用来帮助做一个“决定”的信息。因为感知可以看作是从感官信号中提取信息，所以计算机视觉也可以看作是研究如何使人工系统从图像或多维数据中“感知”的科学。&#xA;作为一个工程学科，计算机视觉寻求基于相关理论与模型来建立计算机视觉系统。这类系统的组成部分包括： 过程控制（例如工业机器人和无人驾驶汽车）&#xA;事件监测（例如图像监测）&#xA;信息组织（例如图像数据库和图像序列的索引建立）&#xA;物体与环境建模（例如工业检查，医学图像分析和拓扑建模）&#xA;交互（如“人机互动的输入设备”）&#xA;计算机视觉同样可以被看作是生物视觉的一个补充。在生物视觉领域中，人类和各种动物的视觉都得到了研究，从而建立了这些视觉系统感知信息过程中所使用的物理模型。另一方面，在计算机视觉中，靠软件和硬件实现的人工智能系统得到了研究与描述。生物视觉与计算机视觉进行的学科间交流为彼此都带来了巨大价值。&#xA;计算机视觉包含如下一些分支：画面重建，事件监测，目标跟踪，目标识别，机器学习，索引建立，图像恢复等。&#xA;计算机视觉是一门通过算法解析图像或多维数据，模拟人类视觉感知的科学。其核心任务是实现目标的识别、跟踪、测量及场景理解，并生成可供决策的信息（Shannon, 1948）。作为交叉学科，它融合了人工智能、信号处理、物理学和神经科学等领域的方法论。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>迁移学习</title>
+      <link>//localhost:60085/categories/ai-ml/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;p&gt;迁移学习（英語：Transfer learning）是属于机器学习的一种研究领域。它专注于存储已有问题的解决模型，并将其利用在其他不同但相关问题上。 比如说，用来辨识汽车的知识（或者是模型）也可以被用来提升识别卡车的能力。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

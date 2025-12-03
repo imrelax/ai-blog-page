@@ -1,0 +1,50 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Site Info -->
+            <div class="footer-section">
+                <h3 class="footer-title">{{ .Site.Title }}</h3>
+                <p class="footer-description">{{ .Site.Params.description }}</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Quick Links</h4>
+                <ul class="footer-links">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <!-- Categories -->
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Categories</h4>
+                <ul class="footer-links">
+                    {{ range .Site.Taxonomies.categories }}
+                    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            {{ if .Site.Params.social }}
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Follow Us</h4>
+                <div class="social-links">
+                    {{ range .Site.Params.social }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
+                        {{ .name }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+        </div>
+    </div>
+</footer>

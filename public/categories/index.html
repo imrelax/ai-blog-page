@@ -1,131 +1,2154 @@
 <!DOCTYPE html>
-<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
-  <head>
-    <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="/img/favicon.ico">
-
-    <meta name="keyword" content=""><meta property="og:url" content="/categories/">
-  <meta property="og:site_name" content="AI 博客">
-  <meta property="og:title" content="Categories">
-  <meta property="og:description" content="我的 AI 博客网站">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:type" content="website">
-<title>Categories</title>
-
-    <link rel="canonical" href="/categories/">
-
-    <link rel="stylesheet" href="/css/global.css">
-
-    <link rel="stylesheet" href="/css/custom.css">
-
-    <link rel="stylesheet" href="/css/search.css" />
-
+<html lang="en" data-theme="light">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60085&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Categories | AI 知识库</title>
+    <meta name="description" content="探索人工智能、机器学习、深度学习和前沿技术的知识海洋">
     
     
-
+    <link rel="stylesheet" href="/css/main.css">
     
     
-
+    <link rel="icon" href="/images/favicon.ico">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-  </head>
-  <body class=" page-landing   ">
-    <header>
-      <nav class="nav">
-  <div class="nav-wrapper">
-    <div class="nav-content-wrapper">
-      <div class="nav-content">
-        <a href="/ " class="nav-title">AI 博客</a>
-        <div class="nav-menu">
-          <div class="nav-item-wrapper">
-            <a href="/posts " class="nav-item-content">Articles</a>
-          </div><div class="nav-item-wrapper">
-            <a href="/about" class="nav-item-content">About</a>
-          </div><div class="nav-item-wrapper">
-            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
-          </div></div>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<script>
-  function toggleSearchModal(){
-    const template = `
-    <div class="modal-body">
-      <div id="autocomplete" onclick="event.stopPropagation();"></div>
-    </div>
-    `
-    const modal = document.querySelector("#modal-wrapper")
-    if(!modal){
-      const div = document.createElement("div")
-      document.body.setAttribute("style","overflow: hidden;")
-      div.setAttribute("id", "modal-wrapper")
-      div.setAttribute("onclick", "toggleSearchModal()")
-      div.innerHTML = template
-      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
-      div.appendChild(script)
-      document.body.append(div)
-    } else {
-      document.body.removeAttribute("style")
-      document.body.removeChild(modal)
-    }
-  }
-</script>
-    </header>
+<body>
     
-<div class="results">
-    <div class="results__content">
-      <div class="result" role="group">
-        <h2 class="result__title">“All Tags”</h2>
-        <div class="tags-list">
-          
-          <a href="/tags/wikipedia">Wikipedia (57) </a>
-          
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            
+            <div class="logo">
+                <a href="/" class="logo-link">
+                    <span class="logo-text">AI 知识库</span>
+                </a>
+            </div>
+
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    
+                    <li class="nav-item">
+                        <a href="/posts/" class="nav-link">
+                            文章
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/about/" class="nav-link">
+                            关于
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            
         </div>
-      </div>
     </div>
+</header>
+    
+    
+    <main class="main-content">
+        
+<div class="categories-page">
+    <div class="page-header">
+        <h1>所有文章分类</h1>
+        <p>浏览我们所有的技术文章和知识内容</p>
+    </div>
+
+    
+    <section class="categories-section">
+        <div class="categories-grid">
+            
+            <div class="category-item">
+                <h2><a href="//localhost:60085/categories/ai-ml/">人工智能与机器学习</a></h2>
+                <p class="count">14 篇文章</p>
+                <div class="category-articles">
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/ai-ml/ai-future/">ai-future</a></h3>
+                        <p class="excerpt">ai-future - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/ai-ml/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a></h3>
+                        <p class="excerpt">人工智能 - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/ai-ml/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/">半监督学习</a></h3>
+                        <p class="excerpt">半监督学习 - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                </div>
+                <a href="//localhost:60085/categories/ai-ml/" class="view-more">查看全部</a>
+            </div>
+            
+            <div class="category-item">
+                <h2><a href="//localhost:60085/categories/data-science/">数据科学</a></h2>
+                <p class="count">1 篇文章</p>
+                <div class="category-articles">
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/data-science/%E7%89%A9%E8%81%94%E7%BD%91/">物联网</a></h3>
+                        <p class="excerpt">物联网 - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                </div>
+                <a href="//localhost:60085/categories/data-science/" class="view-more">查看全部</a>
+            </div>
+            
+            <div class="category-item">
+                <h2><a href="//localhost:60085/categories/encyclopedia/">百科知识</a></h2>
+                <p class="count">37 篇文章</p>
+                <div class="category-articles">
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/encyclopedia/about/">about</a></h3>
+                        <p class="excerpt">about - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/encyclopedia/deep-learning-tutorial/">deep-learning-tutorial</a></h3>
+                        <p class="excerpt">deep-learning-tutorial - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/encyclopedia/first-post/">first-post</a></h3>
+                        <p class="excerpt">first-post - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                </div>
+                <a href="//localhost:60085/categories/encyclopedia/" class="view-more">查看全部</a>
+            </div>
+            
+            <div class="category-item">
+                <h2><a href="//localhost:60085/categories/mathematics/">数学基础</a></h2>
+                <p class="count">2 篇文章</p>
+                <div class="category-articles">
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/mathematics/%E6%95%B0%E5%AD%A6/">数学</a></h3>
+                        <p class="excerpt">数学 - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/mathematics/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">线性代数</a></h3>
+                        <p class="excerpt">线性代数 - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                </div>
+                <a href="//localhost:60085/categories/mathematics/" class="view-more">查看全部</a>
+            </div>
+            
+            <div class="category-item">
+                <h2><a href="//localhost:60085/categories/programming/">编程开发</a></h2>
+                <p class="count">14 篇文章</p>
+                <div class="category-articles">
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/programming/keras/">Keras</a></h3>
+                        <p class="excerpt">Keras - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/programming/python/">Python</a></h3>
+                        <p class="excerpt">Python - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                    <article class="mini-article">
+                        <h3><a href="//localhost:60085/categories/programming/pytorch/">PyTorch</a></h3>
+                        <p class="excerpt">PyTorch - 详细的技术文章和知识介绍</p>
+                    </article>
+                    
+                </div>
+                <a href="//localhost:60085/categories/programming/" class="view-more">查看全部</a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="all-articles-section">
+        <h2>所有文章</h2>
+        <div class="articles-list">
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="about" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/about/">about</a></h3>
+                    <p class="article-desc">about - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&amp;h=400&amp;fit=crop" alt="ai-future" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/ai-future/">ai-future</a></h3>
+                    <p class="article-desc">ai-future - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="deep-learning-tutorial" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/deep-learning-tutorial/">deep-learning-tutorial</a></h3>
+                    <p class="article-desc">deep-learning-tutorial - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="first-post" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/first-post/">first-post</a></h3>
+                    <p class="article-desc">first-post - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Help_talk_目录" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/help_talk_%E7%9B%AE%E5%BD%95/">Help_talk_目录</a></h3>
+                    <p class="article-desc">Help_talk_目录 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Keras" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/keras/">Keras</a></h3>
+                    <p class="article-desc">Keras - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="machine-learning-guide" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/machine-learning-guide/">machine-learning-guide</a></h3>
+                    <p class="article-desc">machine-learning-guide - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;h=400&amp;fit=crop" alt="Python" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/python/">Python</a></h3>
+                    <p class="article-desc">Python - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="PyTorch" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/pytorch/">PyTorch</a></h3>
+                    <p class="article-desc">PyTorch - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Scikit-learn" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/scikit-learn/">Scikit-learn</a></h3>
+                    <p class="article-desc">Scikit-learn - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Stable_Diffusion" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/stable_diffusion/">Stable_Diffusion</a></h3>
+                    <p class="article-desc">Stable_Diffusion - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="TensorFlow" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/tensorflow/">TensorFlow</a></h3>
+                    <p class="article-desc">TensorFlow - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="User_talk_Brooke_Vibber" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/user_talk_brooke_vibber/">User_talk_Brooke_Vibber</a></h3>
+                    <p class="article-desc">User_talk_Brooke_Vibber - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Wikipedia_talk_常见问题解答" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/wikipedia_talk_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/">Wikipedia_talk_常见问题解答</a></h3>
+                    <p class="article-desc">Wikipedia_talk_常见问题解答 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="Wikipedia_talk_用戶介面翻譯_LanguageZh_php" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/wikipedia_talk_%E7%94%A8%E6%88%B6%E4%BB%8B%E9%9D%A2%E7%BF%BB%E8%AD%AF_languagezh_php/">Wikipedia_talk_用戶介面翻譯_LanguageZh_php</a></h3>
+                    <p class="article-desc">Wikipedia_talk_用戶介面翻譯_LanguageZh_php - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&amp;h=400&amp;fit=crop" alt="人工智能" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a></h3>
+                    <p class="article-desc">人工智能 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="体育" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E4%BD%93%E8%82%B2/">体育</a></h3>
+                    <p class="article-desc">体育 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="分布式计算" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/">分布式计算</a></h3>
+                    <p class="article-desc">分布式计算 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="化学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%8C%96%E5%AD%A6/">化学</a></h3>
+                    <p class="article-desc">化学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="医学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%8C%BB%E5%AD%A6/">医学</a></h3>
+                    <p class="article-desc">医学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="半监督学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/">半监督学习</a></h3>
+                    <p class="article-desc">半监督学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="历史" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%8E%86%E5%8F%B2/">历史</a></h3>
+                    <p class="article-desc">历史 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="哲学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%93%B2%E5%AD%A6/">哲学</a></h3>
+                    <p class="article-desc">哲学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" alt="地球科学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6/">地球科学</a></h3>
+                    <p class="article-desc">地球科学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="工程" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%B7%A5%E7%A8%8B/">工程</a></h3>
+                    <p class="article-desc">工程 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="并行计算" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/">并行计算</a></h3>
+                    <p class="article-desc">并行计算 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="强化学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">强化学习</a></h3>
+                    <p class="article-desc">强化学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="心理学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E5%BF%83%E7%90%86%E5%AD%A6/">心理学</a></h3>
+                    <p class="article-desc">心理学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="扩散模型" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/">扩散模型</a></h3>
+                    <p class="article-desc">扩散模型 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="技术" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%8A%80%E6%9C%AF/">技术</a></h3>
+                    <p class="article-desc">技术 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="操作系统" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></h3>
+                    <p class="article-desc">操作系统 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="政治" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%94%BF%E6%B2%BB/">政治</a></h3>
+                    <p class="article-desc">政治 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="教育" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%95%99%E8%82%B2/">教育</a></h3>
+                    <p class="article-desc">教育 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;h=400&amp;fit=crop" alt="数学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/mathematics/%E6%95%B0%E5%AD%A6/">数学</a></h3>
+                    <p class="article-desc">数学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">mathematics</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">数学</span>
+                            
+                            <span class="tag">理论</span>
+                            
+                            <span class="tag">基础</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" alt="数据库" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></h3>
+                    <p class="article-desc">数据库 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" alt="数据结构" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></h3>
+                    <p class="article-desc">数据结构 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="文化" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%96%87%E5%8C%96/">文化</a></h3>
+                    <p class="article-desc">文化 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="文学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%96%87%E5%AD%A6/">文学</a></h3>
+                    <p class="article-desc">文学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="文學" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%96%87%E5%AD%B8/">文學</a></h3>
+                    <p class="article-desc">文學 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&amp;h=400&amp;fit=crop" alt="机器学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a></h3>
+                    <p class="article-desc">机器学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="机器翻译" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91/">机器翻译</a></h3>
+                    <p class="article-desc">机器翻译 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="民族" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%B0%91%E6%97%8F/">民族</a></h3>
+                    <p class="article-desc">民族 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="法律" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E6%B3%95%E5%BE%8B/">法律</a></h3>
+                    <p class="article-desc">法律 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&amp;h=400&amp;fit=crop" alt="深度学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a></h3>
+                    <p class="article-desc">深度学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="物理学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E7%89%A9%E7%90%86%E5%AD%A6/">物理学</a></h3>
+                    <p class="article-desc">物理学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="物联网" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/data-science/%E7%89%A9%E8%81%94%E7%BD%91/">物联网</a></h3>
+                    <p class="article-desc">物联网 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">data-science</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">数据</span>
+                            
+                            <span class="tag">分析</span>
+                            
+                            <span class="tag">科学</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="生成对抗网络" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C/">生成对抗网络</a></h3>
+                    <p class="article-desc">生成对抗网络 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="生物学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E7%94%9F%E7%89%A9%E5%AD%A6/">生物学</a></h3>
+                    <p class="article-desc">生物学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="电影" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E7%94%B5%E5%BD%B1/">电影</a></h3>
+                    <p class="article-desc">电影 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="监督学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/">监督学习</a></h3>
+                    <p class="article-desc">监督学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="知识表示" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E7%9F%A5%E8%AF%86%E8%A1%A8%E7%A4%BA/">知识表示</a></h3>
+                    <p class="article-desc">知识表示 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="神经网络" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">神经网络</a></h3>
+                    <p class="article-desc">神经网络 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="算法" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E7%AE%97%E6%B3%95/">算法</a></h3>
+                    <p class="article-desc">算法 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;h=400&amp;fit=crop" alt="线性代数" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/mathematics/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">线性代数</a></h3>
+                    <p class="article-desc">线性代数 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">mathematics</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">数学</span>
+                            
+                            <span class="tag">理论</span>
+                            
+                            <span class="tag">基础</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="经济学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E7%BB%8F%E6%B5%8E%E5%AD%A6/">经济学</a></h3>
+                    <p class="article-desc">经济学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;h=400&amp;fit=crop" alt="编程语言" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/">编程语言</a></h3>
+                    <p class="article-desc">编程语言 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="聊天机器人" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/">聊天机器人</a></h3>
+                    <p class="article-desc">聊天机器人 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="联邦学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/">联邦学习</a></h3>
+                    <p class="article-desc">联邦学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="自然语言处理" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/">自然语言处理</a></h3>
+                    <p class="article-desc">自然语言处理 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="艺术" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E8%89%BA%E6%9C%AF/">艺术</a></h3>
+                    <p class="article-desc">艺术 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" alt="计算机科学" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/">计算机科学</a></h3>
+                    <p class="article-desc">计算机科学 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="计算机网络" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></h3>
+                    <p class="article-desc">计算机网络 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="计算机视觉" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/">计算机视觉</a></h3>
+                    <p class="article-desc">计算机视觉 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="语言" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E8%AF%AD%E8%A8%80/">语言</a></h3>
+                    <p class="article-desc">语言 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="语音识别" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/">语音识别</a></h3>
+                    <p class="article-desc">语音识别 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&amp;h=400&amp;fit=crop" alt="软件工程" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/programming/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件工程</a></h3>
+                    <p class="article-desc">软件工程 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">programming</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">编程</span>
+                            
+                            <span class="tag">开发</span>
+                            
+                            <span class="tag">技术</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="迁移学习" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/ai-ml/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0/">迁移学习</a></h3>
+                    <p class="article-desc">迁移学习 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">ai-ml</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">人工智能</span>
+                            
+                            <span class="tag">机器学习</span>
+                            
+                            <span class="tag">AI</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-item">
+                
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&amp;h=400&amp;fit=crop" alt="音乐" class="article-thumb">
+                
+                <div class="article-info">
+                    <h3><a href="//localhost:60085/categories/encyclopedia/%E9%9F%B3%E4%B9%90/">音乐</a></h3>
+                    <p class="article-desc">音乐 - 详细的技术文章和知识介绍</p>
+                    <div class="article-meta">
+                        <span class="category">encyclopedia</span>
+                        <span class="date">2025-11-29</span>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">百科</span>
+                            
+                            <span class="tag">知识</span>
+                            
+                            <span class="tag">概念</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            
+        </div>
+    </section>
 </div>
 
+<style>
+.categories-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.category-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-item h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.category-item h2 a:hover {
+    color: #667eea;
+}
+
+.count {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.mini-article {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.mini-article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.mini-article h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.mini-article h3 a {
+    color: #495057;
+    text-decoration: none;
+}
+
+.mini-article h3 a:hover {
+    color: #667eea;
+}
+
+.excerpt {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.view-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+.all-articles-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.article-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-item:hover {
+    transform: translateY(-2px);
+}
+
+.article-thumb {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.article-info {
+    flex: 1;
+}
+
+.article-info h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.article-info h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-info h3 a:hover {
+    color: #667eea;
+}
+
+.article-desc {
+    color: #6c757d;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+}
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.category {
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag {
+    background: #e9ecef;
+    color: #495057;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+</style>
+
+    </main>
     
-    <div class="footer-main ">
-  <div class="content-body footer-wraper">
-    <div class="footer-box">
-      <div class="foot-nav">
-        <div class="foot-nav-items">
-          <div class="item">
-            <div class="logo"></div>
-            <div class="email">Email: <a href="mailto:"></a></div>
-          </div>
-
-          <div class="item community">
-            <div class="item-title">Social Media</div>
+    
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
             
-          </div>
+            <div class="footer-section">
+                <h3 class="footer-title">AI 知识库</h3>
+                <p class="footer-description">探索人工智能、机器学习、深度学习和前沿技术的知识海洋</p>
+            </div>
 
-          <div class="item resources">
-            <div class="item-title">Related</div>
             
-          </div>
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Quick Links</h4>
+                <ul class="footer-links">
+                    
+                    <li><a href="/posts/">文章</a></li>
+                    
+                    <li><a href="/about/">关于</a></li>
+                    
+                </ul>
+            </div>
+
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Categories</h4>
+                <ul class="footer-links">
+                    
+                    <li><a href="//localhost:60085/categories/ai-ml/">人工智能与机器学习</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/data-science/">数据科学</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/encyclopedia/">百科知识</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/mathematics/">数学基础</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/programming/">编程开发</a></li>
+                    
+                </ul>
+            </div>
+
+            
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Follow Us</h4>
+                <div class="social-links">
+                    
+                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                        GitHub
+                    </a>
+                    
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                        Twitter
+                    </a>
+                    
+                </div>
+            </div>
+            
         </div>
-      </div>
-      <div class="bottom">
-        <div class="item copyright">
-          &copy; 2025
-          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
+
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI 知识库. All rights reserved.</p>
         </div>
-      </div>
     </div>
-  </div>
-</div>
-
-  </body>
+</footer>
     
     
-
+    <script src="/js/main.js"></script>
     
     
+    
+    <script src="/js/dark-mode.js"></script>
+    
+</body>
 </html>

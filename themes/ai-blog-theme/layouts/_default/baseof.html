@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" data-theme="{{ .Site.Params.theme | default "light" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ "images/favicon.ico" | relURL }}">
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Header -->
+    {{ partial "header.html" . }}
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+    
+    <!-- Scripts -->
+    <script src="{{ "js/main.js" | relURL }}"></script>
+    
+    <!-- Dark Mode Toggle -->
+    {{ if .Site.Params.enable_dark_mode }}
+    <script src="{{ "js/dark-mode.js" | relURL }}"></script>
+    {{ end }}
+</body>
+</html>

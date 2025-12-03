@@ -1,0 +1,8 @@
+name = "AI Blog Theme"
+description = "A modern, clean and responsive theme for AI and tech blogs"
+license = "MIT"
+author = "AI Knowledge Base"
+homepage = "https://github.com/your-username/ai-blog-theme"
+tags = ["blog", "minimal", "responsive", "ai", "tech"]
+features = ["dark-mode", "search", "taxonomies", "tags", "categories"]
+min_version = "0.147.0"

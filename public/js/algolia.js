@@ -1,6 +1,6 @@
 (() => {
   // ns-hugo-params:<stdin>
-  var baseURL = "/";
+  var baseURL = "//localhost:1313/";
   var params = { defaulttheme: "auto", description: "\u6211\u7684 AI \u535A\u5BA2\u7F51\u7AD9", showcopyright: true, showmore: true, showrss: true };
 
   // <stdin>

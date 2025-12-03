@@ -1,720 +1,356 @@
 <!DOCTYPE html>
-<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.147.4">
-    <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="/img/favicon.ico">
-
-    <meta name="keyword" content=""><meta property="og:url" content="/">
-  <meta property="og:site_name" content="AI 博客">
-  <meta property="og:title" content="AI 博客">
-  <meta property="og:description" content="我的 AI 博客网站">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:type" content="website">
-<title>AI 博客</title>
-
-    <link rel="canonical" href="/">
-
-    <link rel="stylesheet" href="/css/global.css">
-
-    <link rel="stylesheet" href="/css/custom.css">
-
-    <link rel="stylesheet" href="/css/search.css" />
-
+<html lang="en" data-theme="light">
+<head>
+	<meta name="generator" content="Hugo 0.147.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60085&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI 知识库</title>
+    <meta name="description" content="人工智能、机器学习、深度学习知识库，包含技术文章、教程和百科知识">
     
     
-
+    <link rel="stylesheet" href="/css/main.css">
     
     
-
+    <link rel="icon" href="/images/favicon.ico">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-  </head>
-  <body class=" page-landing   ">
-    <header>
-      <nav class="nav">
-  <div class="nav-wrapper">
-    <div class="nav-content-wrapper">
-      <div class="nav-content">
-        <a href="/ " class="nav-title">AI 博客</a>
-        <div class="nav-menu">
-          <div class="nav-item-wrapper">
-            <a href="/posts " class="nav-item-content">Articles</a>
-          </div><div class="nav-item-wrapper">
-            <a href="/about" class="nav-item-content">About</a>
-          </div><div class="nav-item-wrapper">
-            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
-          </div></div>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<script>
-  function toggleSearchModal(){
-    const template = `
-    <div class="modal-body">
-      <div id="autocomplete" onclick="event.stopPropagation();"></div>
-    </div>
-    `
-    const modal = document.querySelector("#modal-wrapper")
-    if(!modal){
-      const div = document.createElement("div")
-      document.body.setAttribute("style","overflow: hidden;")
-      div.setAttribute("id", "modal-wrapper")
-      div.setAttribute("onclick", "toggleSearchModal()")
-      div.innerHTML = template
-      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
-      div.appendChild(script)
-      document.body.append(div)
-    } else {
-      document.body.removeAttribute("style")
-      document.body.removeChild(modal)
-    }
-  }
-</script>
-    </header>
+<body>
     
-
-    <section class="everydayfeed">
-    <div class="section-content">
-      <h2 class="section-head">Articles</h2>
-      <ul role="list" class="section-tiles">
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-hero"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/
-    class="tile large-load  medium-load small-load
-      
-      tile-hero
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
             
-              维基百科
+            <div class="logo">
+                <a href="/" class="logo-link">
+                    <span class="logo-text">AI 知识库</span>
+                </a>
+            </div>
+
             
-          
+            <nav class="nav">
+                <ul class="nav-list">
+                    
+                    <li class="nav-item">
+                        <a href="/posts/" class="nav-link">
+                            文章
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/about/" class="nav-link">
+                            关于
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            
+            
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            
         </div>
-        <div class="tile__headline">线性代数</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
     </div>
-  </a>
-</li>
-
+</header>
+    
+    
+    <main class="main-content">
         
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-2up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E6%95%B0%E5%AD%A6/
-    class="tile large-load  medium-load small-load
-      
-      tile-2up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
+<div class="homepage-container">
+    
+    <section class="welcome-section">
+        <div class="welcome-content">
+            <h1>AI 知识库</h1>
+            <p>探索人工智能、机器学习、编程开发和数据科学的深度知识</p>
         </div>
-        <div class="tile__headline">数学</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-2up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E7%89%A9%E8%81%94%E7%BD%91/
-    class="tile large-load  medium-load small-load
-      
-      tile-2up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">物联网</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-2up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/
-    class="tile large-load  medium-load small-load
-      
-      tile-2up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">并行计算</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-2up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/
-    class="tile large-load  medium-load small-load
-      
-      tile-2up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">分布式计算</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">计算机网络</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">操作系统</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E6%95%B0%E6%8D%AE%E5%BA%93/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">数据库</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">软件工程</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/keras/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">Keras</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-          
-<li
-  role="listitem"class="tile-item nr-scroll-animation item-3up"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/scikit-learn/
-    class="tile large-load  medium-load small-load
-      
-      tile-3up
-      
-      "
-    aria-label=ZgotmplZ
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">Scikit-learn</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-      </ul>
-    </div>
-  </section><section class="more-from-newsroom">
-    <div class="section-content">
-      <h2 class="section-head">More Articles</h2>
-      <ul role="list" class="section-tiles">
-
-      
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">线性代数</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E6%95%B0%E5%AD%A6/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">数学</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E7%89%A9%E8%81%94%E7%BD%91/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">物联网</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">并行计算</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">分布式计算</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-          
-<li
-  role="listitem"
-  class="tile-item item-list nr-scroll-animation"
-  style="--nr-animation-transform-y:20%;"
->
-  <a
-    href=/wikipedia/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
-    class="tile tile-list medium-load small-load large-load"
-    aria-label={label}
-  >
-    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="" alt="lt"/>
-    </div>
-    <div class="tile__description" aria-hidden="true">
-      <div class="tile__head">
-        <div class="tile__category">
-          
-            
-              维基百科
-            
-          
-        </div>
-        <div class="tile__headline">计算机网络</div>
-      </div>
-      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 29, 2025</div>
-    </div>
-  </a>
-</li>
-
-        
-      </ul>
-      <div class="view-archive-wrapper">
-        <a href="/posts " class="cta-primary-light" data-analytics-region="router" data-analytics-title="view archive">View Archive</a>
-      </div>
-    </div>
-  </section><script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var script = document.createElement("script");
-        script.src = "/js/animation.js";
-        document.head.appendChild(script);
-
-        script.onload = function () {
-          console.log("lazyload.js loaded");
-          
-          initImage();
-        };
-      });
-    </script>
+    </section>
 
     
-    <div class="footer-main ">
-  <div class="content-body footer-wraper">
-    <div class="footer-box">
-      <div class="foot-nav">
-        <div class="foot-nav-items">
-          <div class="item">
-            <div class="logo"></div>
-            <div class="email">Email: <a href="mailto:"></a></div>
-          </div>
-
-          <div class="item community">
-            <div class="item-title">Social Media</div>
+    <section class="categories-section">
+        <h2>文章分类</h2>
+        <div class="categories-grid">
             
-          </div>
-
-          <div class="item resources">
-            <div class="item-title">Related</div>
+            <a href="//localhost:60085/categories/ai-ml/" class="category-card">
+                <h3>人工智能与机器学习</h3>
+                <span class="count">14 篇文章</span>
+            </a>
             
-          </div>
+            <a href="//localhost:60085/categories/data-science/" class="category-card">
+                <h3>数据科学</h3>
+                <span class="count">1 篇文章</span>
+            </a>
+            
+            <a href="//localhost:60085/categories/encyclopedia/" class="category-card">
+                <h3>百科知识</h3>
+                <span class="count">37 篇文章</span>
+            </a>
+            
+            <a href="//localhost:60085/categories/mathematics/" class="category-card">
+                <h3>数学基础</h3>
+                <span class="count">2 篇文章</span>
+            </a>
+            
+            <a href="//localhost:60085/categories/programming/" class="category-card">
+                <h3>编程开发</h3>
+                <span class="count">14 篇文章</span>
+            </a>
+            
         </div>
-      </div>
-      <div class="bottom">
-        <div class="item copyright">
-          &copy; 2025
-          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
+    </section>
+
+    
+    <section class="latest-articles">
+        <h2>最新文章</h2>
+        <div class="articles-grid">
+            
         </div>
-      </div>
-    </div>
-  </div>
+    </section>
+
+    
+    <section class="view-all-section">
+        <a href="/categories" class="view-all-button">查看所有文章</a>
+    </section>
 </div>
 
-  </body>
-    
-    
+<style>
+.homepage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
+.welcome-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.categories-section {
+    margin-bottom: 3rem;
+}
+
+.categories-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.category-card {
+    display: block;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.category-card:hover {
+    background: #e9ecef;
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.category-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #495057;
+}
+
+.count {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.latest-articles h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.article-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-4px);
+}
+
+.article-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 1.5rem;
+}
+
+.article-content h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-content h3 a:hover {
+    color: #667eea;
+}
+
+.article-excerpt {
+    color: #6c757d;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.view-all-section {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.view-all-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.view-all-button:hover {
+    background: #5a67d8;
+}
+</style>
+
+    </main>
     
     
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            
+            <div class="footer-section">
+                <h3 class="footer-title">AI 知识库</h3>
+                <p class="footer-description">探索人工智能、机器学习、深度学习和前沿技术的知识海洋</p>
+            </div>
+
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Quick Links</h4>
+                <ul class="footer-links">
+                    
+                    <li><a href="/posts/">文章</a></li>
+                    
+                    <li><a href="/about/">关于</a></li>
+                    
+                </ul>
+            </div>
+
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Categories</h4>
+                <ul class="footer-links">
+                    
+                    <li><a href="//localhost:60085/categories/ai-ml/">人工智能与机器学习</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/data-science/">数据科学</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/encyclopedia/">百科知识</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/mathematics/">数学基础</a></li>
+                    
+                    <li><a href="//localhost:60085/categories/programming/">编程开发</a></li>
+                    
+                </ul>
+            </div>
+
+            
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Follow Us</h4>
+                <div class="social-links">
+                    
+                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                        GitHub
+                    </a>
+                    
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                        Twitter
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI 知识库. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    
+    
+    <script src="/js/main.js"></script>
+    
+    
+    
+    <script src="/js/dark-mode.js"></script>
+    
+</body>
 </html>

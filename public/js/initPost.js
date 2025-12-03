@@ -1,6 +1,6 @@
 (() => {
   // ns-hugo-params:<stdin>
-  var stdin_default = { baseURL: "/" };
+  var stdin_default = { baseURL: "//localhost:1313/" };
 
   // <stdin>
   var scriptMd5 = document.createElement("script");

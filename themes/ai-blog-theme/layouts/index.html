@@ -1,0 +1,92 @@
+{{ define "main" }}
+<div class="homepage">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">探索人工智能的无限可能</h1>
+                <p class="hero-description">深入AI、机器学习、深度学习和前沿技术的知识海洋</p>
+                <div class="hero-actions">
+                    <a href="#articles" class="btn btn-primary">浏览文章</a>
+                    <a href="/categories" class="btn btn-secondary">查看分类</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">热门分类</h2>
+            <div class="categories-grid">
+                {{ range first 6 .Site.Taxonomies.categories }}
+                <a href="{{ .Page.Permalink }}" class="category-card">
+                    <h3>{{ .Page.Title }}</h3>
+                    <p>{{ .Count }} 篇文章</p>
+                    <span class="category-arrow">→</span>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section id="articles" class="articles-section">
+        <div class="container">
+            <h2 class="section-title">最新文章</h2>
+            <div class="articles-grid">
+                {{ range first 9 (where .Site.RegularPages "Type" "posts") }}
+                <article class="article-card">
+                    {{ if .Params.cover }}
+                    <div class="article-image">
+                        <img src="{{ .Params.cover }}" alt="{{ .Title }}" loading="lazy">
+                    </div>
+                    {{ end }}
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-category">{{ index .Params.categories 0 }}</span>
+                            <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+                        </div>
+                        <h3 class="article-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                        <p class="article-excerpt">{{ .Description | default .Summary | truncate 120 }}</p>
+                        <div class="article-tags">
+                            {{ range first 3 .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+            
+            {{ if gt (len (where .Site.RegularPages "Type" "posts")) 9 }}
+            <div class="view-all-container">
+                <a href="/posts" class="btn btn-outline">查看所有文章</a>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <span class="stat-number">{{ len .Site.RegularPages }}</span>
+                    <span class="stat-label">总文章数</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">{{ len .Site.Taxonomies.categories }}</span>
+                    <span class="stat-label">分类数量</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">{{ len .Site.Taxonomies.tags }}</span>
+                    <span class="stat-label">标签数量</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{ end }}

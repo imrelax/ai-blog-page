@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on AI 博客</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on AI 博客</description>
+    <title>Categories on AI 知识库</title>
+    <link>//localhost:60085/categories/</link>
+    <description>Recent content in Categories on AI 知识库</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 29 Nov 2025 13:47:29 +0800</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="//localhost:60085/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wikipedia</title>
-      <link>/categories/wikipedia/</link>
-      <pubDate>Sat, 29 Nov 2025 13:47:29 +0800</pubDate>
-      <guid>/categories/wikipedia/</guid>
+      <title>人工智能与机器学习</title>
+      <link>//localhost:60085/categories/ai-ml/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/ai-ml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数学基础</title>
+      <link>//localhost:60085/categories/mathematics/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据科学</title>
+      <link>//localhost:60085/categories/data-science/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>百科知识</title>
+      <link>//localhost:60085/categories/encyclopedia/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/encyclopedia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编程开发</title>
+      <link>//localhost:60085/categories/programming/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:60085/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教程指南</title>
+      <link>//localhost:60085/categories/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:60085/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>

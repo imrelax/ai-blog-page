@@ -1,0 +1,204 @@
+{{ define "main" }}
+<div class="homepage-container">
+    <!-- 欢迎区域 -->
+    <section class="welcome-section">
+        <div class="welcome-content">
+            <h1>AI 知识库</h1>
+            <p>探索人工智能、机器学习、编程开发和数据科学的深度知识</p>
+        </div>
+    </section>
+
+    <!-- 分类导航 -->
+    <section class="categories-section">
+        <h2>文章分类</h2>
+        <div class="categories-grid">
+            {{ range site.Taxonomies.categories }}
+            <a href="{{ .Page.Permalink }}" class="category-card">
+                <h3>{{ .Page.Title }}</h3>
+                <span class="count">{{ .Count }} 篇文章</span>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- 最新文章 -->
+    <section class="latest-articles">
+        <h2>最新文章</h2>
+        <div class="articles-grid">
+            {{ range first 12 (where .Site.RegularPages "Type" "posts") }}
+            <article class="article-card">
+                {{ if .Params.cover }}
+                <img src="{{ .Params.cover }}" alt="{{ .Title }}" class="article-cover">
+                {{ end }}
+                <div class="article-content">
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p class="article-excerpt">{{ .Description | default .Summary }}</p>
+                    <div class="article-meta">
+                        <span class="category">{{ index .Params.categories 0 }}</span>
+                        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- 所有文章链接 -->
+    <section class="view-all-section">
+        <a href="/categories" class="view-all-button">查看所有文章</a>
+    </section>
+</div>
+
+<style>
+.homepage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.categories-section {
+    margin-bottom: 3rem;
+}
+
+.categories-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.category-card {
+    display: block;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.category-card:hover {
+    background: #e9ecef;
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.category-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #495057;
+}
+
+.count {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.latest-articles h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.article-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-4px);
+}
+
+.article-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 1.5rem;
+}
+
+.article-content h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-content h3 a:hover {
+    color: #667eea;
+}
+
+.article-excerpt {
+    color: #6c757d;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.view-all-section {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.view-all-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.view-all-button:hover {
+    background: #5a67d8;
+}
+</style>
+{{ end }}

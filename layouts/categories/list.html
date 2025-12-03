@@ -1,0 +1,239 @@
+{{ define "main" }}
+<div class="categories-page">
+    <div class="page-header">
+        <h1>所有文章分类</h1>
+        <p>浏览我们所有的技术文章和知识内容</p>
+    </div>
+
+    <!-- 分类网格 -->
+    <section class="categories-section">
+        <div class="categories-grid">
+            {{ range site.Taxonomies.categories }}
+            <div class="category-item">
+                <h2><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h2>
+                <p class="count">{{ .Count }} 篇文章</p>
+                <div class="category-articles">
+                    {{ range first 3 .Pages }}
+                    <article class="mini-article">
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <p class="excerpt">{{ .Description | truncate 100 }}</p>
+                    </article>
+                    {{ end }}
+                </div>
+                <a href="{{ .Page.Permalink }}" class="view-more">查看全部</a>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- 所有文章列表 -->
+    <section class="all-articles-section">
+        <h2>所有文章</h2>
+        <div class="articles-list">
+            {{ range .Site.RegularPages }}
+            <article class="article-item">
+                {{ if .Params.cover }}
+                <img src="{{ .Params.cover }}" alt="{{ .Title }}" class="article-thumb">
+                {{ end }}
+                <div class="article-info">
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p class="article-desc">{{ .Description | default .Summary | truncate 150 }}</p>
+                    <div class="article-meta">
+                        <span class="category">{{ index .Params.categories 0 }}</span>
+                        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+                        {{ if .Params.tags }}
+                        <div class="tags">
+                            {{ range first 3 .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+</div>
+
+<style>
+.categories-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.category-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-item h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.category-item h2 a:hover {
+    color: #667eea;
+}
+
+.count {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.mini-article {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.mini-article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.mini-article h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.mini-article h3 a {
+    color: #495057;
+    text-decoration: none;
+}
+
+.mini-article h3 a:hover {
+    color: #667eea;
+}
+
+.excerpt {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.view-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+.all-articles-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.article-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-item:hover {
+    transform: translateY(-2px);
+}
+
+.article-thumb {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.article-info {
+    flex: 1;
+}
+
+.article-info h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.article-info h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-info h3 a:hover {
+    color: #667eea;
+}
+
+.article-desc {
+    color: #6c757d;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+}
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.category {
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag {
+    background: #e9ecef;
+    color: #495057;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+</style>
+{{ end }}
